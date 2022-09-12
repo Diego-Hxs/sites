@@ -1,0 +1,410 @@
+body {
+    margin: 0;
+    font-family: "Lato",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x:hidden ;
+}
+
+.bruh {
+    width: 100%;
+    height: 63px;
+    background:rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2000;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    font-size: .875em;
+    height: 100%;
+}
+.momento:hover {
+    color:#40aa0b
+}
+#cadeado {
+    margin-right: 10px;
+}
+#bordaL {
+    border-right: 1px dashed rgba(255,255,255,.2);
+    width: 63px;
+}
+#logo {
+    margin-right: 400px;
+}
+.modelo {
+    margin-top: -22px;
+}
+.texto1 {
+    width: 800px;
+    position: absolute;
+    left: 320px;
+    top: 160px;
+    z-index: 1;
+}
+#colegio {
+    color: #fff;
+    font-weight: 900;
+    font-size: 2.375em;
+    padding: 0;
+    line-height: 1;
+    z-index: -10;
+    
+}
+#aqui {
+    color:#fff;
+    font-size: 18px;
+}
+.clique {
+    justify-content: center;
+    padding: 1em;
+    display: flex;
+    width: 310px;
+    margin-top: 3em;
+    background:#40aa0b;
+    font-size: .875em;
+    font-weight: 700;;
+    color: #fff;
+    border-radius: 8px;
+}
+.meio {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 550px;
+    left: 540px;
+    text-align: center;
+}
+h2 {
+    font-size: 2.7em;
+    font-weight: 700;
+    
+}
+#textomeio {
+    font-size: 18px;
+    margin-top: -19px;
+}
+.quadrado {
+    width: 310px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 300px;
+    border-radius: 0.75em;
+    z-index: -2;
+}
+.quadrado2 {
+    width: 310px;
+    height: 330px;
+    position: absolute;
+    top: 800px;
+    left: 640px;
+    border-radius: 0.75em;
+    z-index: -2;
+}
+.quadrado3 {
+    width: 310px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 980px;
+    border-radius: 0.75em;
+    z-index: -2;
+}
+.quadrado4 {
+    width: 310px;
+    height: 300px;
+    position: absolute;
+    top: 800px;
+    left: 1320px;
+    border-radius: 0.75em;
+    z-index: -2;
+}
+.amongus {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.75em;
+    position: absolute;
+    z-index: -1;
+    
+}
+.lista2 {
+    margin-top: 150px;
+    margin-left: -20px;
+    position: absolute;
+    z-index: 1;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.87em;
+    font-weight: 700;
+    width: 250px;
+}
+
+#bruh {
+    float: left;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+li {
+    margin-top: 12px;
+}
+.jogayjoga {
+    position: absolute;
+    text-align: center;
+    top: 1150px;
+    left: 600px;
+}
+.unidades {
+    width: 68%;
+    height: 400px;
+
+    position: absolute;
+    top: 1400px;
+    left: 420px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.75em;
+}
+.barroca {
+    width: 430px;
+    height: 340px;
+    border-radius: 0.75em;
+    margin-right: 20px;
+}
+.barroca:hover {
+    margin-top: -0.7em;
+    box-shadow: 0px 2px 16px rgb(0 0 0 / 30%);
+}
+#redondo {
+    border-radius: 0.75em;
+}
+#renatim {
+    font-size: 20px;
+}
+#bruh2 {
+   float: left;
+   margin-left: -28px;
+}
+.lista3 {
+    margin-left: -18px;
+}
+.another {
+    position: absolute;
+    top: 1800px;
+    left: 870px;
+}
+#maisum {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+#bruh3 {
+    float: left;
+    margin-left: -50px;
+    margin-top: 26px;
+    width: 50px;
+}
+.telefone { 
+    color: #40aa0b;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+}
+.poggers {
+    position: absolute;
+    top: 2100px;
+    left: 380px;
+    display: flex;
+    flex-direction: row;
+}
+.poggers2 {
+    position: absolute;
+    top: 1950px;
+    left: 780px;
+}
+.square {
+    width: 300px;
+    border-radius: 12px;
+    margin-right: 18px;
+    transition: width 0.5s;
+}
+.square:hover {
+    width: 330px;
+}
+#textodentro {
+    color: #fff;
+    font-size: 16px;
+    line-height: 23px;
+    position: absolute;
+    bottom: 4px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+span {
+    font-style: italic;
+    font-size: .75em;
+}
+.rodape {
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    top: 2470px;
+    background:#151515;
+}
+.divroda1 {
+    margin-left: 300px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: row;
+}
+#destaque {
+    color: #fff;
+    padding: 0 15px;
+    font-size: 1.125em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.padraozinho {
+    padding: 5px 15px;
+    font-size: .875em;
+    color: #bdbdbd;
+}
+.padraozinho:hover{
+    background: #212121; 
+    border-radius: 8px;
+}
+.listarodape {
+    margin-left: 65px;
+}
+#destaque2 {
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-left: 23px;
+}
+.padraozinho2 {
+    padding: 5px 15px;
+    font-size: 16px;
+    color: #bdbdbd;
+    line-height: 26px;
+}
+.clique2 {
+    justify-content: center;
+    padding: 1em;
+    display: flex;
+    width: 360px;
+    background:#40aa0b;
+    font-size: .875em;
+    font-weight: 700;;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.divroda2 {
+    width: 1300px;
+    border-top: 1px solid #2e2e2e;
+    margin-left: 370px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: row;
+}
+#megamente {
+    font-size: .75em;
+    color: #fff;
+}
+#oswaldooo {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#sera { 
+    height: 45px;
+    width: 70px;
+    text-align: center;
+    background-color: #4460a0;
+    border-radius: 8px;
+    margin-right: 17px;
+}
+#sera2 { 
+    height: 45px;
+    width: 70px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-right: 17px;
+
+}
+#sera3 { 
+    height: 45px;
+    width: 70px;
+    text-align: center;
+    background-color: #007ab9;
+    border-radius: 8px;
+    margin-right: 17px;
+
+}
+#sera4 { 
+    height: 45px;
+    width: 70px;
+    text-align: center;
+    background-color: #00aaec;
+    border-radius: 8px;
+    margin-right: 17px;
+
+}
+.icon {
+    margin-top: 8.5px;
+}
+.icon2 {
+    margin-top: 4.5px;
+}
+.icon3 {
+    margin-top: 12.5px;
+}
+#oswaldooo2 {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+display: flex;
+    flex-direction: column;
+}
+#paulosusu {
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    font-size: 1.225em;
+    font-weight: 700;
+}
+#robotnik {
+    overflow: hidden;
+    width: 300px;
+    height: 320px;
+    margin-left: 20px;
+    max-width: 320px;
+    display: block;
+    border-radius: 12px;
+}
+#ligue {
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+    z-index: 1500;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 100px; 
+}
+#ligueagora {
+    margin-right: 400px ;
+}
